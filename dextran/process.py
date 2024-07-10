@@ -54,7 +54,7 @@ def find_neck_radius(image, x_column):
     return 0, 0, 0
 
 # Directory containing TIF files
-folder_path = '/Users/amalli/Desktop/droplet_analysis/dextran/40x_2x2_5/'
+folder_path = '/Users/amalli/Desktop/droplet-analysis/dextran/40x_2x2_5/'
 original_folder_name = os.path.basename(os.path.normpath(folder_path))
 
 # Get a list of all TIF files in the folder and sort them by file name
